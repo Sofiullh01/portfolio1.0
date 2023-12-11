@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className='max-w-6xl mx-auto'>
+      <div className='max-w-6xl mx-auto bg-gray-800'>
       <NavBar/>
       <Banner/>
       <About/>

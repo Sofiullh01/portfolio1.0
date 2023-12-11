@@ -2,12 +2,12 @@ import { FiGithub } from "react-icons/fi";
 import logoImg from "../../assets/WhatsApplogo.jpg";
 const NavBar = () => {
   const navLinks = <>
-  <li><a href="#1">About</a></li>
-  <li><a href="">Skills</a></li>
-  <li><a href="">Project</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#">Skills</a></li>
+  <li><a href="#">Project</a></li>
   </>
   return (
-    <div className="navbar  font-poppins bg-gray-800 text-white">
+    <div className="navbar font-poppins bg-[#9900FF]  text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

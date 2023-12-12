@@ -1,6 +1,6 @@
 const SkillsCard = ({skillName, percentage}) => {
   return (
-    <div className=" sm:w-1/2 md:w-full lg:w-1/4 xl:w-full  py-2">
+    <div className=" sm:w-1/2 md:w-full lg:w-1/4 xl:w-full py-2">
             <div className="relative pt-1">
               <div className="flex items-center justify-between">
                 <div>

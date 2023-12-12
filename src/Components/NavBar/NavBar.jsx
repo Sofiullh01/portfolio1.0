@@ -1,13 +1,21 @@
 import { FiGithub } from "react-icons/fi";
 import logoImg from "../../assets/WhatsApplogo.jpg";
 const NavBar = () => {
-  const navLinks = <>
-  <li><a href="#about">About</a></li>
-  <li><a href="#">Skills</a></li>
-  <li><a href="#">Project</a></li>
-  </>
+  const navLinks = (
+    <>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#skills">Skills</a>
+      </li>
+      <li>
+        <a href="#project">Project</a>
+      </li>
+    </>
+  );
   return (
-    <div className="navbar font-poppins bg-[#9900FF]  text-white">
+    <div className="navbar font-poppins bg-gradient-to-r from-[#DD00FF] to-[#9000FF]  text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +38,7 @@ const NavBar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-40 text-gray-800"
           >
-           {navLinks}
+            {navLinks}
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">
@@ -39,12 +47,12 @@ const NavBar = () => {
         </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          {navLinks}
-        </ul>
+        <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <a className="flex justify-center items-center gap-1 pr-3 cursor-pointer"><FiGithub className="text-3xl" /> GitHub</a>
+        <a href="https://github.com/Sofiullh01" className="flex justify-center items-center gap-1 pr-3 cursor-pointer">
+          <FiGithub className="text-3xl" /> GitHub
+        </a>
       </div>
     </div>
   );

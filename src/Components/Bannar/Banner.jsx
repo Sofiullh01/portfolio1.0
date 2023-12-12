@@ -6,9 +6,12 @@ const Banner = () => {
     <div className="flex lg:flex-row md:flex-col-reverse justify-center items-center bg-gray-800 text-white font-poppins px-8 flex-col-reverse space-y-8 gap-y-8 ">
       <div className="flex-1 space-y-6  lg:text-left">
         <h2 className="text-5xl font-semibold">
-          <span className="text-7xl text-[#9900FF]">Hay,</span> <br /> I am
-          Sofiul
+          <span className="text-7xl text-[#DD00FF] ">
+            Hay,
+          </span>
+          <br /> I am Sofiul
         </h2>
+
         <h5 className="text-3xl">
           I am a <span className="text-[#9900FF]">junior web developer</span>
         </h5>
@@ -23,7 +26,7 @@ const Banner = () => {
         <a
           href={resume}
           download="Resume"
-          className="btn bg-transparent my-7 border-[#9900FF] text-[#9900FF] hover:bg-[#9900FF] hover:text-white duration-700 hover:border-none uppercase"
+          className="btn bg-transparent my-7 border-[#9900FF] text-[#9900FF] hover:bg-gradient-to-r from-[#DD00FF] to-[#9000FF] hover:text-white duration-700 hover:border-none uppercase"
         >
           Resume <FaDownload className="ml-2" />
         </a>

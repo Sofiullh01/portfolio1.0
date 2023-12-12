@@ -2,11 +2,11 @@ import logoImg from "../../assets/23-08-removebg-preview.png";
 
 const Footer = () => {
   return (
-    <footer className=" flex items-center justify-evenly py-10 bg-base-200 text-base-content ">
+    <footer className=" flex items-center justify-evenly py-10 bg-gradient-to-r from-[#DD00FF] to-[#9000FF] text-base-content ">
       <div>
         <img className="w-60" src={logoImg} alt="" />
       </div>
-      <div className="flex flex-col  space-y-6 justify-center items-center ">
+      <div className=" flex-1 flex flex-col  space-y-6 justify-center items-center ">
         <nav className="grid grid-flow-col gap-4">
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>

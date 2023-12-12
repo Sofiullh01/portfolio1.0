@@ -2,7 +2,7 @@
 
 const Project = () => {
     return (
-        <div className="h-screen">
+        <div id="project" className="h-screen">
             Project 
         </div>
     );

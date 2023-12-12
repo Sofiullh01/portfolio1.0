@@ -3,8 +3,8 @@ import resume from "../../assets/Resume.pdf";
 import { FaDownload } from "react-icons/fa";
 const About = () => {
   return (
-    <div className="my-8">
-      <h3 className="text-lg font-bold text-custom-500 text-[#9900FF] uppercase text-center  mb-6">
+    <div id="about" className="my-8">
+      <h3 className="text-lg font-bold text-custom-500 text-gradient-to-r from-[#DD00FF] to-[#9000FF] uppercase text-center  mb-6">
         About me
       </h3>
       <div className="hero-content flex-col md:flex-row">
@@ -15,7 +15,7 @@ const About = () => {
           />
           <img
             src={image}
-            className="w-2/4 rounded-lg shadow-2xl lg:h-72 object-cover absolute lg:right-5 lg:top-2/4 md:-right-3 md:-bottom-16 right-8 -bottom-16 border-8 border-[#9900FF] "
+            className="w-2/4 rounded-lg shadow-2xl lg:h-72 object-cover absolute lg:right-5 lg:top-2/4 md:-right-3 md:-bottom-16 right-8 -bottom-16 border-8 border-[#9000FF] "
           />
         </div>
         <div className=" flex-1 ">
@@ -37,7 +37,7 @@ const About = () => {
           <a
             href={resume}
             download="Resume"
-            className="btn bg-transparent mt-8 border-[#9900FF] text-[#9900FF] hover:bg-[#9900FF] hover:text-white duration-700 hover:border-none uppercase "
+            className="btn bg-transparent mt-8 border-[#9900FF] text-[#9900FF] hover:bg-gradient-to-r from-[#DD00FF] to-[#9000FF] hover:text-white duration-700 hover:border-none uppercase "
           >
             Know More
             <FaDownload className="ml-2" />

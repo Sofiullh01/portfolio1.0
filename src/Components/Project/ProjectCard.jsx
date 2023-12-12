@@ -1,6 +1,7 @@
 
 import { MdOutlinePreview } from "react-icons/md";
 import { FaFileCode } from "react-icons/fa";
+import PropTypes from 'prop-types';
 const ProjectCard = ({proImg,title,text,live,code}) => {
   return (
     <div className="card w-96 bg-gray-900 shadow-xl">
@@ -35,4 +36,12 @@ const ProjectCard = ({proImg,title,text,live,code}) => {
   );
 };
 
+ProjectCard.propTypes = {
+    proImg: PropTypes.string,
+    title: PropTypes.string,
+    text: PropTypes.string,
+    live: PropTypes.string,
+    code: PropTypes.string,
+
+}
 export default ProjectCard;

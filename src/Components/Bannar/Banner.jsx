@@ -1,4 +1,4 @@
-import profile from "../../assets/23-08-removebg-preview.png";
+import profile from "../../assets/WhatsApp_Image_2023-12-12_at_15.06.49_97146e08-removebg-preview.png";
 import { FaDownload } from "react-icons/fa";
 import resume from "../../assets/Resume.pdf";
 const Banner = () => {
@@ -16,11 +16,11 @@ const Banner = () => {
           I am a <span className="text-[#9900FF]">junior web developer</span>
         </h5>
         <p className="lg:w-[85%] text-gray-400 text-sm">
-          I'm a motivated and versatile individual with a passion for learning.
-          I'm dedicated to delivering high-quality results in web development,
+          I am a motivated and versatile individual with a passion for learning.
+          I am dedicated to delivering high-quality results in web development,
           where I excel in HTML, CSS, Tailwind, JavaScript, React, Node.js,
           Express.js, and MongoDB (CRUD operations). With a positive attitude
-          and a growth mindset, I'm ready to make a meaningful contribution and
+          and a growth mindset, I am ready to make a meaningful contribution and
           achieve great things in the ever-evolving world of web development.
         </p>
         <a
@@ -31,8 +31,8 @@ const Banner = () => {
           Resume <FaDownload className="ml-2" />
         </a>
       </div>
-      <div className="rounded-full border-2 border-[#9900FF]  lg:w-[410px] lg:h-[410px] md:w-64 md:h-64 mt-4">
-        <img src={profile} alt="profile" className=" " />
+      <div className="rounded-full border-2 border-[#9900FF]  lg:w-[410px] lg:h-[410px] md:w-64 md:h-64 mt-4 overflow-hidden bg-gradient-to-r from-[#DD00FF] to-[#9000FF]">
+        <img src={profile} alt="profile" className=" object-cover overflow-hidden w-96 " />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import { FiGithub } from "react-icons/fi";
-import logoImg from "../../assets/WhatsApplogo.jpg";
+import logoImg from "../../assets/WhatsApp_Image_2023-12-12_at_15.06.49_97146e08-removebg-preview.png";
 const NavBar = () => {
   const navLinks = (
     <>
@@ -42,7 +42,11 @@ const NavBar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">
-          <img src={logoImg} alt="logo" className="w-12" />
+          <div className="avatar">
+            <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+              <img src={logoImg} />
+            </div>
+          </div>
           <span className="font-bold">SOFIUL</span>
         </a>
       </div>
@@ -50,7 +54,10 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <a href="https://github.com/Sofiullh01" className="flex justify-center items-center gap-1 pr-3 cursor-pointer">
+        <a
+          href="https://github.com/Sofiullh01"
+          className="flex justify-center items-center gap-1 pr-3 cursor-pointer"
+        >
           <FiGithub className="text-3xl" /> GitHub
         </a>
       </div>

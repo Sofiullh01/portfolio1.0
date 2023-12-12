@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const SkillsCard = ({skillName, percentage}) => {
   return (
     <div className=" sm:w-1/2 md:w-full lg:w-1/4 xl:w-full py-2">
@@ -26,5 +27,8 @@ const SkillsCard = ({skillName, percentage}) => {
           </div>
   );
 };
-
+SkillsCard.propTypes = {
+  skillName: PropTypes.string,
+  percentage: PropTypes.string,
+}
 export default SkillsCard;

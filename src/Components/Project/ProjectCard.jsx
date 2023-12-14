@@ -28,7 +28,7 @@ const ProjectCard = ({proImg,title,text,live,code}) => {
             download="Resume"
             className="btn bg-transparent my-7 border-[#9900FF] text-[#9900FF] hover:bg-gradient-to-r from-[#DD00FF] to-[#9000FF] hover:text-white duration-700 hover:border-none uppercase"
           >
-            Preview <FaFileCode  className="ml-2" />
+            Code <FaFileCode  className="ml-2" />
           </a>
         </div>
       </div>
